@@ -19,6 +19,6 @@ public class MainAbstractExample {
         car.speed();
 
         // Vehicle' is abstract; cannot be instantiated
-        Vehicle vehicle = new Vehicle();   // will generate an error
+       // Vehicle vehicle = new Vehicle();   // will generate an error
     }
 }

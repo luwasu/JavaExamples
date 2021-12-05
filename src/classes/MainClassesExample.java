@@ -1,6 +1,7 @@
 package classes;
 
 public class MainClassesExample {
+
     public static void main(String[] args){
 
         System.out.println("*************************Dog Example***********************");
