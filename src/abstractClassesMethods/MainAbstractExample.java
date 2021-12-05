@@ -8,6 +8,14 @@ package abstractClassesMethods;
         - An abstract method is a method that does not contain an implementation body. Instead, it simply provides a header for the method.
         - Subclasses that extend an abstract class are required to override all abstract methods and provide a specific implementation.
 
+
+      Abstract class
+
+        - Can have class variables.
+        - Can have both abstract methods and concrete methods that are shared with the subclasses.
+        - Can have instance variables, i.e. variables that are specific to individual subclasses.
+        - Subclasses can only extend one class.
+
  */
 
 public class MainAbstractExample {
