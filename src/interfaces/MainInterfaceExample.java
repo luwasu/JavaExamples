@@ -24,5 +24,9 @@ package interfaces;/*
 public class MainInterfaceExample {
     public static void main(String[] args) {
 
+        Car car = new Car("Tesla", "Insane Mode", "Red", "Texas");
+
+        System.out.println(car);
+
     }
 }
