@@ -5,6 +5,18 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
+
+
+/*      Without Maps: Linear Lookup Time
+
+        When we have a list of objects and need to search for an item in that list, the time required to search will
+        grow linearly with the number of objects. The more items added to the list, the longer it will take to iterate
+        over all the items. Processing a list of items like this is said to take linear time, because a graph of the
+        relationship looks like a straight line:*/
+
+
+
+
 public class CollectionExample {
     public static void main (String[] args) {
         List<String> listOfItems = new LinkedList<String>();
