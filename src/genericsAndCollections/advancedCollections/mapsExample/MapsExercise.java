@@ -37,7 +37,7 @@ public class MapsExercise {
         people.add(new Person("Truffles", "truffles@example.com"));
         people.add(new Person("George", "george@example.com"));
 
-        System.out.println("*******ArrayList Person*********");
+        System.out.println("*******ArrayList PersonRecord*********");
         for (Person person : people) {
             System.out.println(person);
         }
@@ -49,7 +49,7 @@ public class MapsExercise {
             mapOfPeople.put(person.getEmail(), person);
         }
 
-        System.out.println("*******HashMap Person*********");
+        System.out.println("*******HashMap PersonRecord*********");
         System.out.println("***print values***");
         for (Person i : mapOfPeople.values()) {
             System.out.println(i);

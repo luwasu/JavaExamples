@@ -18,7 +18,7 @@ public class MainClassesExample {
         dog.setDogColor("Black");
         System.out.println(dog.getDogColor());
 
-        System.out.println("*************************Person Example***********************");
+        System.out.println("*************************PersonRecord Example***********************");
 
         Person dave = new Person("Dave", "Funnybones", "Comedian");
         Person domi = new Person("Domi", "Grünert", "Product Owner");
