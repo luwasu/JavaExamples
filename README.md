@@ -1,5 +1,5 @@
 # JavaExamples
 This is a collection of java and programming concepts: 
 
-![image](https://user-images.githubusercontent.com/40022621/146459135-10fcf025-06db-469b-85f4-1181301df98e.png)
+![image](https://user-images.githubusercontent.com/40022621/146545510-fd5f3910-5d2e-4d3f-a150-d2d7ca525f46.png)
 
