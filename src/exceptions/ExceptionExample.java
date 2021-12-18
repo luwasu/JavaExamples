@@ -1,6 +1,5 @@
 package exceptions;
 
-
 /*
         The Error Class and the Exception Class
 
@@ -48,9 +47,6 @@ package exceptions;
 */
 
 
-
-
-
 public class ExceptionExample {
 
     public static void main(String[] args) {
@@ -71,7 +67,6 @@ public class ExceptionExample {
 
         }
     }
-
 }
 
 
