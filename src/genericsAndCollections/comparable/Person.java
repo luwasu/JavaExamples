@@ -9,7 +9,7 @@ class Person implements Comparable<Person> {
 
     @Override
     public int compareTo(Person person) {
-        return name.compareTo(person.name);
+        return this.name.compareTo(person.name);
     }
 }
 

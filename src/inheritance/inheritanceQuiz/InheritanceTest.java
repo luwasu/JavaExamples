@@ -1,4 +1,4 @@
-package inheritance.advancedExample;
+package inheritance.inheritanceQuiz;
 
 
 // What is the output of the program?
@@ -6,7 +6,7 @@ package inheritance.advancedExample;
 public class InheritanceTest {
 
     public static void main(String[] args) {
-        B x = new A(); // First it will print the constructor: output 1, 4
+        B x = new A(); // First it will print the constructor (because of the super(): output 1, 4
         System.out.println("");
         x.foo(); // will output 2 because of the foo() method
         System.out.println("");
@@ -27,6 +27,7 @@ public class InheritanceTest {
 
 class B {
     public B() {
+        super(); // is always in the constructor even if you leave it out the compiler will add it automatically to the first line of the constructor.
         System.out.print("1");
     }
 
@@ -41,7 +42,9 @@ class B {
 
 class A extends B {
     public A() {
+        super(); // is always in the constructor even if you leave it out the compiler will add it automatically
         System.out.print("4");
+
     }
 
     public void bar() {
