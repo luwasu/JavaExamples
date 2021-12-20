@@ -13,6 +13,15 @@ package threadAndMultithreading.multithreading;
                             - or by implementing the Runnable interface
                                 - This can be useful when you want to extend (inherit) another class and still do multithreading.
 
+
+               Useful information on  Threads: - interrupt(); -> is used to stop a thread (do not use stop();)
+
+                                               - notify(), notifyAll(); & wait(); -> can be used to synchronise methods that need
+                                                 to wait for another thread that will notify the waiting thread with notify.
+
+                                               - synchronised: Synchronization in java is the capability to
+                                                 control the access of multiple threads to any shared resource
+
 */
 
 public class MultithreadingExampleClass {
@@ -34,6 +43,9 @@ public class MultithreadingExampleClass {
 
         thread1.start();
         thread1.join(3000); //calling thread (ex.main) waits until the specified thread dies or for x milliseconds
+
+        thread1.interrupt();     // Interrupt is used to stop a thread. It will throw a g.InterruptedException Do not use stop()!!!!
+
         thread2.start();
 
 //         System.out.println(1/0);   // Uncomment to see use
